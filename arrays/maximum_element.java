@@ -10,11 +10,11 @@ public class maximum_element {
         }
         int max = arr[0];
         for(int i = 0; i < n; i++){
-            if(arr[i] > arr[max]){
-                arr[max] = arr[i];
+            if(arr[i] > max){
+                max = arr[i];
             }
         
     }
-    System.out.print(arr[max] + " is the largest element in your array");
+    System.out.print(max + " is the largest element in your array");
 }
 }
