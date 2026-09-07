@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class search {
+public class linearsearch {
     public static void main(String args[]){
         System.out.print("ENter the number of elements in your array:");
         Scanner sc = new Scanner(System.in);
