@@ -24,7 +24,7 @@ public class AddingOne {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 9};
+        int[] arr = {9, 9, 9};
 
         int[] answer = addOne(arr);
 
