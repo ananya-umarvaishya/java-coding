@@ -1,10 +1,10 @@
 public class CheckingSortedArray{
 public static void  main(String []args){
-    int a[] = {1,2,3,9,5};
+    int a[] = {1,1,2,3,9,5};
     boolean sorted = true;
     for(int i = 0; i < a.length-1; i++){
-        if(a[i] > a[i+1]){
-           sorted = false;
+        if(a[i] <= a[i+1]){
+           sorted = true;
         }
     }
   if (sorted){
